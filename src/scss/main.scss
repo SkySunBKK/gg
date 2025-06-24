@@ -13,6 +13,9 @@
 @use 'components/button';
 @use 'components/header';
 
+// pages
+@use 'components/page-one';
+
 body {
   text-align: center;
   background-color: var(--main-color);
