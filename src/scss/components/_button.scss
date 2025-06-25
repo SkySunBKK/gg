@@ -1,0 +1,11 @@
+button {
+  border: 0;
+  color: white;
+  font-size: 16px;
+  font-family: "Arial Black";
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: yellow;
+  transform: translateY(-5px);
+}
