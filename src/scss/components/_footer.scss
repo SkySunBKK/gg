@@ -1,0 +1,97 @@
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
+  gap: 20px;
+}
+.brand-section {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-family: "Arial Black";
+  text-align: left;
+}
+.address {
+  color: #9F9F9F;
+  line-height: 1.5;
+  font-family: Arial;
+  font-size: 16px;
+  text-align: left;
+  width: 300px;
+  margin-top: 40px;
+}
+.links-section h3,
+.newsletter-section h3 {
+  font-family: Arial;
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #9F9F9F;
+  line-height: 1.5;
+}
+.links-section ul {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}
+.links-section li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s ease;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.links-section li a:hover {
+  color: red;
+}
+.newsletter-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.email-input {
+  border-bottom: solid 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 100%;
+  max-width: 200px;
+}
+.subscribe-btn {
+  background-color: white;
+  color: black;
+  font-family: "Arial Black";
+  border-bottom: solid 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.copyright {
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 20px;
+  color: black;
+  line-height: 1.5;
+  font-family: Arial;
+  font-size: 16px;
+  text-align: left;
+}
+.forma {
+  display: flex;
+  margin-top: 40px;
+}

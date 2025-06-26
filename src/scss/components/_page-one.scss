@@ -98,5 +98,110 @@
   flex-wrap: wrap;
   margin-top: 35px;
 }
-
-
+.show-more {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.explore-rooms {
+  background-color: #FCF8F3;
+  width: 100%;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .rooms {
+    text-align: left;
+    .rooms-name {
+      color: black;
+      font-family: "Arial Black";
+      font-size: 40px;
+    }
+    .rooms-description {
+      font-size: 20px;
+      color: black;
+      margin-top: 10px;
+      font-family: Arial;
+    }
+    .rooms-button {
+      margin-top: 30px;
+    }
+  }
+  .room-card {
+    text-align: left;
+    margin-left: 60px;
+  }
+  .content {
+    margin-top: -130px;
+    margin-left: 20px;
+    position: absolute;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    .number-title {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 8px;
+      font-family: Arial;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      font-family: "Arial Black";
+      color: #3a3a3a;
+      margin: 0;
+    }
+    .arrow {
+      position: absolute;
+      margin-left: 177px;
+      margin-top: -20px;
+      width: 40px;
+      height: 40px;
+      background: #FFB74D;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+  .other-rooms {
+    margin-left: 20px;
+    .rooma {
+      margin-top: -35px;
+    }
+    .circle {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      text-align: left;
+      margin-top: 30px;
+    }
+  }
+}
+.setup {
+  color: #3a3a3a;
+  font-family: "Arial Black";
+  font-size: 20px;
+  margin-top: 50px;
+}
+.funiro-fortune {
+  color: black;
+  font-family: "Arial Black";
+  font-size: 40px;
+  color: #3a3a3a;
+}
+.collage-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .photo-collage {
+    margin: 18px;
+  }
+  .group-one {
+    text-align: right;
+  }
+  .group-three {
+    text-align: left;
+  }
+}
