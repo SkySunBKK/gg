@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <title>Корзина</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Проверка</title>
 </head>
 <body>
 <header class="header">
@@ -53,69 +53,120 @@
       <img src="./assets/images/logotype.webp" class="header-logo">
       
     </picture>
-    <h1 class="shop-title">Cart</h1>
+    <h1 class="shop-title">Checkout</h1>
     <div class="breadcrumbs">
       <a class="homes" href="/">Home ></a>
-      <a href="">Cart</a>
+      <a href="">Checkout</a>
     </div>
   </div>
 </div>
-<section class="buy-cart">
-  <div class="cart-info">
-    <div class="description-cart">
-      <span class="name-buy">Product</span>
-      <span class="name-buy">Price</span>
-      <span class="name-buy">Quantity</span>
-      <span class="name-buy">Subtotal</span>
-    </div>
-    <div class="buyer-cart">
-      <picture>
-        <img src="./assets/images/sofa.webp" class="photo-cart">
-      </picture>
-      <span class="name-cart">Asgaard sofa</span>
-      <span class="name-cart">Rs. 250,000.00</span>
-      <div class="count">1</div>
-      <span class="names-cart">Rs. 250,000.00</span>
-      <picture>
-        <svg class="photo-cart" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20.625 4H17.125V1.8125C17.125 0.847266 16.3402 0.0625 15.375 0.0625H6.625C5.65977 0.0625 4.875 0.847266 4.875 1.8125V4H1.375C0.891016 4 0.5 4.39102 0.5 4.875V5.75C0.5 5.87031 0.598437 5.96875 0.71875 5.96875H2.37031L3.0457 20.2695C3.08945 21.202 3.86055 21.9375 4.79297 21.9375H17.207C18.1422 21.9375 18.9105 21.2047 18.9543 20.2695L19.6297 5.96875H21.2812C21.4016 5.96875 21.5 5.87031 21.5 5.75V4.875C21.5 4.39102 21.109 4 20.625 4ZM15.1562 4H6.84375V2.03125H15.1562V4Z" fill="#B88E2F"/>
-        </svg>
-      </picture>
-    </div>
-  </div>
-  <div class="cart-total">
-    <span class="buy-name">Cart Totals</span>
-    <div class="buyers">
-       <div class="flexing">
-           <div class="name-flexing">
-             Subtotal
-           </div>
-           <div class="price-flexing">
-             Rs. 250,000.00
-           </div>
-       </div>
-      <div class="flexing">
-        <div class="name-flexingg">
-          Total
+<section class="hock">
+    <div class="container">
+        <div class="billing-section">
+            <h2>Billing details</h2>
+            <form>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="companyName">Company Name <span class="optional">(Optional)</span></label>
+                    <input type="text" id="companyName">
+                </div>
+                <div class="form-group">
+                    <label for="country">Country / Region</label>
+                    <select id="country">
+                        <option value="" disabled="disabled" selected="selected">Sri Lanka</option>
+                        <option value="us">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="ca">Canada</option>
+                        <option value="au">Australia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="streetAddress">Street address</label>
+                    <input type="text" id="streetAddress">
+                </div>
+                <div class="form-group">
+                    <label for="city">Town / City</label>
+                    <input type="text" id="city">
+                </div>
+                    <div class="form-group">
+                        <label for="province">Province</label>
+                        <select id="province">
+                            <option value="" disabled="disabled" selected="selected">Western Province</option>
+                            <option value="central">Central Province</option>
+                            <option value="southern">Southern Province</option>
+                            <option value="northern">Northern Province</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="zipCode">ZIP code</label>
+                        <input type="text" id="zipCode">
+                    </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="additionalInfo" placeholder="Additional information">
+                </div>
+            </form>
         </div>
-        <div class="price-flexing-new">
-          Rs. 250,000.00
+        <div class="order-section">
+            <div class="order-infor">
+                <div class="name-infor">Product</div>
+                <div class="name-infor">Subtotal</div>
+            </div>
+            <div class="order-summary">
+                <div class="order-item">
+                    <div>
+                        <span class="item-name">Asgaard sofa</span>
+                        <span class="item-quantity">x 1</span>
+                    </div>
+                    <span class="item-price">Rs. 250,000.00</span>
+                </div>
+            </div>
+            <div class="subtotal">
+                <span>Subtotal</span>
+                <span>Rs. 250,000.00</span>
+            </div>
+            <div class="total">
+                <span>Total</span>
+                <span class="total-money">Rs. 250,000.00</span>
+            </div>
+            <div class="payment-methods">
+                <h3 class="payment-title">Direct Bank Transfer</h3>
+                <p class="payment-description">
+                    Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+                </p>
+                <div class="payment-option">
+                    <input type="radio" id="bankTransfer" name="paymentMethod" checked="checked">
+                    <label for="bankTransfer">Direct Bank Transfer</label>
+                </div>
+                <div class="payment-option">
+                    <input type="radio" id="cashOnDelivery" name="paymentMethod">
+                    <label for="cashOnDelivery">Cash On Delivery</label>
+                </div>
+            </div>
+            <div class="privacy-note">
+                Your personal data will be used to support your experience <br>
+                throughout this website, to manage access to your account, and <br>
+                for other purposes described in our <b>privacy policy</b>.
+            </div>
+            <button class="place-order-btn">Place order</button>
         </div>
-      </div>
     </div>
-    <div class="check">
-      <button class="button" style="border-radius: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        background-color: #F9F1E7;
-        border-color: black;
-        color: black;">
-    <span>Check Out</span>
-</button>
-    </div>
-  </div>
 </section>
 <div class="info">
   <picture>

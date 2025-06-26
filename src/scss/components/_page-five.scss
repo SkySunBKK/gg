@@ -1,0 +1,162 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+.hock {
+  justify-content: center;
+  display: flex;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.billing-section {
+  flex: 1;
+  background: white;
+  padding: 30px;
+}
+.order-section {
+  width: 380px;
+  background: white;
+  padding: 30px;
+  align-self: flex-start;
+}
+.order-infor {
+  display: flex;
+  gap: 237px;
+  margin-top: 50px;
+}
+h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: 100;
+}
+.name-infor {
+  color: black;
+  font-family: "Arial Black";
+  font-size: 16px;
+}
+.form-group {
+  margin-bottom: 20px;
+  gap: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+}
+input, select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+.optional {
+  color: #999;
+  font-weight: 400;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}
+.row > .form-group {
+  flex: 1;
+}
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin-bottom: -25px;
+}
+.item-name {
+  font-weight: 500;
+  color: #9F9F9F;
+}
+.item-quantity {
+  color: #666;
+}
+
+.item-price {
+  font-weight: 500;
+  color: black;
+}
+
+.order-summary {
+  margin-bottom: 20px;
+}
+
+.subtotal, .total {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.total {
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
+}
+.total-money {
+  color: #b8750a;
+  font-family: "Arial Black";
+  font-size: 16px;
+}
+.payment-methods {
+  margin: 25px 0;
+  text-align: left;
+  color: black;
+}
+.payment-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: black;
+}
+.payment-description {
+  font-size: 14px;
+  color: #9F9F9F;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.payment-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.payment-option input {
+  width: auto;
+  margin-right: 10px;
+}
+.payment-option label {
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #9F9F9F;
+}
+.privacy-note {
+  font-size: 13px;
+  color: black;
+  line-height: 1.6;
+  margin: 25px 0;
+  text-align: left;
+}
+.place-order-btn {
+  padding: 14px 50px;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.place-order-btn:hover {
+  background-color: #555;
+}

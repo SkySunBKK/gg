@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Проверка</title>
+</head>
+<body>
+@@include('../components/_header.html',)
+@@include('../components/_fone.html', {
+"title": "Checkout",
+"name": "Checkout",
+"showImg": true,
+})
+<section class="hock">
+    <div class="container">
+        <div class="billing-section">
+            <h2>Billing details</h2>
+            <form>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="companyName">Company Name <span class="optional">(Optional)</span></label>
+                    <input type="text" id="companyName">
+                </div>
+                <div class="form-group">
+                    <label for="country">Country / Region</label>
+                    <select id="country">
+                        <option value="" disabled selected>Sri Lanka</option>
+                        <option value="us">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="ca">Canada</option>
+                        <option value="au">Australia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="streetAddress">Street address</label>
+                    <input type="text" id="streetAddress">
+                </div>
+                <div class="form-group">
+                    <label for="city">Town / City</label>
+                    <input type="text" id="city">
+                </div>
+                    <div class="form-group">
+                        <label for="province">Province</label>
+                        <select id="province">
+                            <option value="" disabled selected>Western Province</option>
+                            <option value="central">Central Province</option>
+                            <option value="southern">Southern Province</option>
+                            <option value="northern">Northern Province</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="zipCode">ZIP code</label>
+                        <input type="text" id="zipCode">
+                    </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="additionalInfo" placeholder="Additional information">
+                </div>
+            </form>
+        </div>
+        <div class="order-section">
+            <div class="order-infor">
+                <div class="name-infor">Product</div>
+                <div class="name-infor">Subtotal</div>
+            </div>
+            <div class="order-summary">
+                <div class="order-item">
+                    <div>
+                        <span class="item-name">Asgaard sofa</span>
+                        <span class="item-quantity">x 1</span>
+                    </div>
+                    <span class="item-price">Rs. 250,000.00</span>
+                </div>
+            </div>
+            <div class="subtotal">
+                <span>Subtotal</span>
+                <span>Rs. 250,000.00</span>
+            </div>
+            <div class="total">
+                <span>Total</span>
+                <span class="total-money">Rs. 250,000.00</span>
+            </div>
+            <div class="payment-methods">
+                <h3 class="payment-title">Direct Bank Transfer</h3>
+                <p class="payment-description">
+                    Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+                </p>
+                <div class="payment-option">
+                    <input type="radio" id="bankTransfer" name="paymentMethod" checked>
+                    <label for="bankTransfer">Direct Bank Transfer</label>
+                </div>
+                <div class="payment-option">
+                    <input type="radio" id="cashOnDelivery" name="paymentMethod">
+                    <label for="cashOnDelivery">Cash On Delivery</label>
+                </div>
+            </div>
+            <div class="privacy-note">
+                Your personal data will be used to support your experience <br>
+                throughout this website, to manage access to your account, and <br>
+                for other purposes described in our <b>privacy policy</b>.
+            </div>
+            <button class="place-order-btn">Place order</button>
+        </div>
+    </div>
+</section>
+@@include('../components/_info.html',)
+@@include('../components/_footer.html',)
+</body>
+</html>
