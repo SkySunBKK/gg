@@ -1,0 +1,89 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+.buy-cart {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.description-cart {
+  width: 817px;
+  height: 55px;
+  background-color: #F9F1E7;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.buyer-cart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: -35px;
+}
+.flexing {
+  display: flex;
+}
+.name-buy {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+.name-cart {
+  color: #9F9F9F;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+.count {
+  border: solid 1px #9F9F9F;
+  border-radius: 10px;
+  width: 25px;
+  height: 21px;
+  padding-top: 3px;
+}
+.buy-name {
+  font-family: "Arial Black";
+  font-size: 32px;
+}
+.name-flexing {
+  font-family: "Arial Black";
+  font-size: 14px;
+  margin-left: 87px;
+}
+.price-flexing {
+  color: #9F9F9F;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-left: 40px;
+}
+.price-flexing-new {
+  color: #d48c0d;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.cart-total {
+  height: 350px;
+  width: 390px;
+  background-color: #F9F1E7;
+  margin-left: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+.flexing {
+  text-align: center;
+}
+.buyers {
+  margin-top: 50px;
+  text-align: center;
+}
+.name-flexingg {
+  font-family: "Arial Black";
+  font-size: 14px;
+  margin-left: 87px;
+  margin-top: 30px;
+}
+.check {
+  margin-top: 50px;
+}

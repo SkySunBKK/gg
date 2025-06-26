@@ -20,6 +20,7 @@
 // pages
 @use 'components/page-one';
 @use "components/page-two";
+@use "components/page-four";
 body {
   text-align: center;
   background-color: var(--main-color);
