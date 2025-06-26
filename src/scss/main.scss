@@ -14,10 +14,12 @@
 @use 'components/header';
 @use "components/card";
 @use "components/footer";
+@use "components/fone";
+@use "components/info";
 
 // pages
 @use 'components/page-one';
-
+@use "components/page-two";
 body {
   text-align: center;
   background-color: var(--main-color);

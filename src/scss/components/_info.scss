@@ -1,0 +1,25 @@
+.info {
+  background-color: #FAF3EA;
+  height: 270px;
+  width: 100%;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+.name-info {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+}
+.description-info {
+  color: #898989;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+.info-images {
+  margin-right: -40px;
+}
+

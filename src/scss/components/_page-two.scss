@@ -1,0 +1,43 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+.toolbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F1E7;
+  margin-bottom: 60px;
+  .name-tool {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-right: 40px;
+  }
+  .results {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  .results-show {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #9F9F9F;
+    margin-right: 40px;
+  }
+  .tools {
+    margin-right: 40px;
+  }
+  .name-tools {
+    margin-left: 348px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-right: 40px;
+  }
+}
+.next-str {
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
